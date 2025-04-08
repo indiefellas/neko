@@ -1,0 +1,35 @@
+{
+  "name": "@indiefellas/neko",
+  "version": "0.1.0",
+  "description": "nekocli is a console app that makes it simple to make websites with Nekoweb.",
+  "keywords": [
+    "nekoweb",
+    "cli",
+    "api"
+  ],
+  "homepage": "https://github.com/indiefellas/neko#readme",
+  "bugs": {
+    "url": "https://github.com/indiefellas/neko/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indiefellas/neko.git"
+  },
+  "license": "MIT",
+  "author": "indiefellas <team@indieseas.net>",
+  "type": "module",
+  "main": "neko.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@indiefellas/nekoweb-api": "latest",
+    "commander": "^13.1.0",
+    "conf": "^13.1.0",
+    "enquirer": "^2.4.1",
+    "is-binary-path": "^3.0.0",
+    "launch-editor": "^2.10.0",
+    "watcher": "^2.3.1",
+    "yauzl": "^3.2.0"
+  }
+}
